@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: url(1.jpg);
+    background-size: cover;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 5px;
+    position: relative;
+}
+
+.clock span {
+    height: 80px;
+    width: 100px;
+    background-color: steelblue;
+    color: white;
+    opacity: .8;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock .text {
+    text-transform: uppercase;
+    font-size: 20px;
+    background: slateblue;
+    letter-spacing: 1px;
+    opacity: .7;
+}
+
+.clock #ampm {
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    border-radius: 20px;
+    background: orangered;
+}
